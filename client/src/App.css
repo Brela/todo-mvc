@@ -28,10 +28,54 @@
   color: #61dafb;
 }
 
+/* .not {
+    background-color: rgb(235, 223, 225);
+} */
+
+/* ---------- */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(136, 110, 88);
+}
+
+.scroll {
+  width: 50vw;
+  background: green;
+  background-size: 50vw;
+  background-repeat: no-repeat;
+
+}
+
+.scrollBottom {
+  margin-top: 90px;
+  width: 50vw;
+  background: green;
+  background-size: 50vw;
+  background-repeat: no-repeat;
+  z-index: 2;
+  height: 97px;
+}
+
+.scroll ul {
+  margin: 100px 20%;
+}
+
+.completed {
+  color: rgb(88, 84, 70);
+  text-decoration: line-through;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
