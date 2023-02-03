@@ -1,3 +1,3 @@
 # todo-mvc
 
-### planning on figuring out React and incorporating with this back-end
+for now, React is contained in the client folder and everything else is backend
